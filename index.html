@@ -387,6 +387,15 @@
 
       window.addEventListener('resize', updateMaxPos);
     });
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var profilTab = document.querySelector('.bottom-bar .tab:last-child');
+      if (profilTab) {
+        profilTab.addEventListener('click', function() {
+          alert('Seni çok seviyorum hayatımın anlamı. her nerede olursan ol yanındayım arkandayım iyi ki varsın.❤️❤️❤️');
+        });
+      }
+    });
     </script>
 </body>
 </html> 
